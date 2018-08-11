@@ -12,10 +12,8 @@ class App < Sinatra::Base
     erb :reversed
   end
 
-  <% @friends.each do |friend| %>
-    <h2><%= friend %></h2>
-    <% end %>
-    
+  
+
 
   erb :friends
 
